@@ -59,15 +59,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                String nama = etNama.getText().toString();
-                String alamat = etAlamat.getText().toString();
-                String email = etEmail.getText().toString();
-                String no = etNo.getText().toString();
 
-                hasil2.setText("Nama Lengkap : " + nama);
-                hasil3.setText("Alamat       : " + alamat);
-                hasil4.setText("Email        : " + email);
-                hasil5.setText("No Identitas : " + no);
+                doClick4();
                 doClick();
                 doClick2();
                 doClick3();
@@ -85,6 +78,48 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void doClick4() {
+        if (isValid()) {
+            String nama = etNama.getText().toString();
+            String alamat = etAlamat.getText().toString();
+            String email = etEmail.getText().toString();
+            String no = etNo.getText().toString();
+
+            hasil2.setText("Nama Lengkap : " + nama);
+            hasil3.setText("Alamat       : " + alamat);
+            hasil4.setText("Email        : " + email);
+            hasil5.setText("No Identitas : " + no);
+        }
+    }
+
+    private boolean isValid() {
+        boolean valid = true;
+
+        String nama = etNama.getText().toString();
+        String email = etEmail.getText().toString();
+        String no = etNo.getText().toString();
+
+        if (nama.isEmpty()) {
+            etNama.setError("Nama Belum Diisi");
+            valid = false;
+        } else {
+            etNama.setError(null);
+        }
+        if (email.isEmpty()) {
+            etEmail.setError("Email Belum Diisi");
+            valid = false;
+        } else {
+            etEmail.setError(null);
+        }
+        if (no.isEmpty()) {
+            etNo.setError("No Identitas Belum Diisi");
+            valid = false;
+        } else {
+            etEmail.setError(null);
+        }
+        return valid;
     }
 
     private void doClick2() {
