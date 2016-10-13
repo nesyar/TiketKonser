@@ -44,8 +44,7 @@ public class MainActivity extends AppCompatActivity {
         hasil4 = (TextView) findViewById(R.id.hasil4);
         hasil5 = (TextView) findViewById(R.id.hasil5);
         hasil6 = (TextView) findViewById(R.id.hasil6);
-        hasil7 = (TextView)
-                findViewById(R.id.hasil7);
+        hasil7 = (TextView) findViewById(R.id.hasil7);
         panggilan = (Spinner) findViewById(R.id.panggilan);
         yellow = (RadioButton) findViewById(R.id.yellow);
         pink = (RadioButton) findViewById(R.id.pink);

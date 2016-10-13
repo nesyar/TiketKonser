@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:text="Saranghaeyeo Indonesia"
             android:textAlignment="center"
-            android:textColor="black"
+            android:textColor="@android:color/black"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Panggilan : "
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <Spinner
             android:id="@+id/panggilan"
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nama Lengkap :"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/etNama"
@@ -53,14 +53,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Alamat :"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/etAlamat"
@@ -68,14 +68,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textMultiLine"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email :"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/etEmail"
@@ -83,14 +83,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="No Telp :"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <EditText
             android:id="@+id/etNo"
@@ -98,14 +98,14 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Jenis Tiket :"
-            android:textColor="black" />
+            android:textColor="@android:color/black" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Jumlah Tiket :"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <CheckBox
                 android:id="@+id/one"
@@ -169,56 +169,56 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Book"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/hasil7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textColor="black" />
+                android:textColor="@android:color/black" />
         </RadioGroup>
 
 
