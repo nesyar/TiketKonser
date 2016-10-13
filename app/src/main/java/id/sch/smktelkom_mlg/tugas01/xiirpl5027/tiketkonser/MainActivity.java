@@ -124,13 +124,13 @@ public class MainActivity extends AppCompatActivity {
     private void doClick2() {
         String hasil = null;
         if (yellow.isChecked()) {
-            hasil = yellow.getText().toString() + "Harga : 800.000 (Standing)";
+            hasil = yellow.getText().toString() + " Harga : 800.000 (Standing)";
         } else if (pink.isChecked()) {
-            hasil = pink.getText().toString() + "Harga : 1.000.000 (Standing)";
+            hasil = pink.getText().toString() + " Harga : 1.000.000 (Standing)";
         } else if (blue.isChecked()) {
-            hasil = blue.getText().toString() + "Harga : 1.500.000 (Standing)";
+            hasil = blue.getText().toString() + " Harga : 1.500.000 (Standing)";
         } else if (gold.isChecked()) {
-            hasil = gold.getText().toString() + "Harga : 1.500.000 (Limited Seating" +
+            hasil = gold.getText().toString() + " Harga : 1.500.000 (Limited Seating" +
                     ")";
         }
         if (hasil == null) {
