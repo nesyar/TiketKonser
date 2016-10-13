@@ -21,13 +21,18 @@
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Saranghaeyeo Indonesia" />
+            android:text="Saranghaeyeo Indonesia"
+            android:textAlignment="center"
+            android:textColor="black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView20"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Panggilan : " />
+            android:text="Panggilan : "
+            android:textColor="black" />
 
         <Spinner
             android:id="@+id/panggilan"
@@ -39,59 +44,68 @@
             android:id="@+id/textView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nama Lengkap :" />
+            android:text="Nama Lengkap :"
+            android:textColor="black" />
 
         <EditText
             android:id="@+id/etNama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="black" />
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Alamat :" />
+            android:text="Alamat :"
+            android:textColor="black" />
 
         <EditText
             android:id="@+id/etAlamat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textMultiLine" />
+            android:inputType="textMultiLine"
+            android:textColor="black" />
 
         <TextView
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email :" />
+            android:text="Email :"
+            android:textColor="black" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="black" />
 
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="No Telp :" />
+            android:text="No Telp :"
+            android:textColor="black" />
 
         <EditText
             android:id="@+id/etNo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="black" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Jenis Tiket :" />
+            android:text="Jenis Tiket :"
+            android:textColor="black" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -132,7 +146,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Jumlah Tiket :" />
+                android:text="Jumlah Tiket :"
+                android:textColor="black" />
 
             <CheckBox
                 android:id="@+id/one"
@@ -153,50 +168,57 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Book" />
+                android:text="Book"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
-
                 android:id="@+id/hasil6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
 
             <TextView
                 android:id="@+id/hasil7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textColor="black" />
         </RadioGroup>
 
 
