@@ -3,13 +3,13 @@ Aplikasi ini bertujuan untuk memudahkan pemesanan tiket konser internasional yan
 biasanya jika melewati web kadang lemot dan susah untuk diakses.
 
 form :
-1. panggilan
-2. nama
-3. alamat
-4. email 
-5.no telepon
-6. jenis tiket 
-7. banyak tiket
+<br>1. panggilan
+<br>2. nama
+<br>3. alamat
+<br>4. email 
+<br>5.no telepon
+<br>6. jenis tiket 
+<br>7. banyak tiket
 
 *jika nama,email,dan no telepon tidak diisikan maka akan ada peringatan
 
@@ -24,9 +24,9 @@ Link apk :
 https://drive.google.com/open?id=0B_0PQd2v9gp4MTN3UXluLWVqNDQ
 
 Nama : Nesya Rogawati
-Kelas : XII RPL 5
-No Urut : 27
-NIS : 4398/1296.063
-Nama Sekolah : SMK TELKOM MALANG
+<br>Kelas : XII RPL 5
+<br>No Urut : 27
+<br>NIS : 4398/1296.063
+<br>Nama Sekolah : SMK TELKOM MALANG
 
 
